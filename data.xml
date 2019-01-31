@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File di salvataggio dell'applicazione. Non modificare a mano.-->
+<root>
+    <Tesserato type="calciatore">
+        <nome>Lionel</nome>
+        <cognome>Messi</cognome>
+        <nascita>
+            <anno>1987</anno>
+            <mese>6</mese>
+            <giorno>24</giorno>
+        </nascita>
+        <stipendio>5e+7</stipendio>
+        <scadenza>
+            <anno>2022</anno>
+            <mese>6</mese>
+            <giorno>30</giorno>
+        </scadenza>
+        <presenze>5</presenze>
+        <bonus>3</bonus>
+        <malus>0</malus>
+        <chiave>si</chiave>
+    </Tesserato>
+    <Tesserato type="nuotatore">
+        <nome>Michael</nome>
+        <cognome>Phelps</cognome>
+        <nascita>
+            <anno>1985</anno>
+            <mese>6</mese>
+            <giorno>30</giorno>
+        </nascita>
+        <stipendio>1000.91</stipendio>
+        <scadenza>
+            <anno>2021</anno>
+            <mese>9</mese>
+            <giorno>20</giorno>
+        </scadenza>
+        <sponsor>1000.91</sponsor>
+        <ori>8</ori>
+        <argenti>0</argenti>
+        <bronzi>0</bronzi>
+    </Tesserato>
+    <Tesserato type="pugile">
+        <nome>Mike</nome>
+        <cognome>Tyson</cognome>
+        <nascita>
+            <anno>1966</anno>
+            <mese>6</mese>
+            <giorno>30</giorno>
+        </nascita>
+        <stipendio>6000</stipendio>
+        <scadenza>
+            <anno>2024</anno>
+            <mese>10</mese>
+            <giorno>1</giorno>
+        </scadenza>
+        <vittorie>5</vittorie>
+        <vittorieKO>4</vittorieKO>
+        <sconfitteKO>1</sconfitteKO>
+    </Tesserato>
+    <Tesserato type="dirigente">
+        <nome>Beppe</nome>
+        <cognome>Marotta</cognome>
+        <nascita>
+            <anno>1957</anno>
+            <mese>3</mese>
+            <giorno>25</giorno>
+        </nascita>
+        <salario>30</salario>
+        <ore>61</ore>
+        <commissioni>5</commissioni>
+        <master>si</master>
+    </Tesserato>
+    <Tesserato type="allenatore">
+        <nome>Pierpaolo</nome>
+        <cognome>Bisoli</cognome>
+        <nascita>
+            <anno>1966</anno>
+            <mese>11</mese>
+            <giorno>20</giorno>
+        </nascita>
+        <salario>25</salario>
+        <ore>80</ore>
+        <vittorie>3</vittorie>
+        <obiettivi>no</obiettivi>
+    </Tesserato>
+</root>

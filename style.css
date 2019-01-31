@@ -1,0 +1,121 @@
+*{
+    font-family: Arial;
+}
+
+QWidget{
+    background-color:#414141;
+    color:white;
+}
+
+QPushButton{
+    background-color: #414141;
+    padding: 0.5em;
+    border-style: outset;
+    border: 1px solid #737373;
+    margin:3px;
+}
+
+QPushButton:hover{
+    background-color: #737373;
+    color: #00FF00;
+}
+
+QScrollArea{
+    background-color: white;
+    border:none;
+    margin-top:3px;
+    margin-bottom:3px;
+}
+
+QScrollArea QLabel{
+    background-color: white;
+    color:black;
+    font-size: 13pt;
+    font-style: italic;
+    padding: 5px 0 0 5px;
+    min-width:100%;
+}
+
+QListWidget{
+    border: none;
+    background-color: white;
+    font-size: 15pt;
+    color:black;
+    max-width:300px;
+}
+
+QListWidget::item:selected{
+    background-color: #00FF00;
+    color: black;
+}
+
+QLineEdit{
+    background-color:white;
+    color:black;
+}
+
+#searchBar {
+    background-color: white;
+    padding: 0.38em 0;
+    font-size: 13pt;
+    color:black;
+    margin-bottom:3px;
+    margin-top:3px;
+    border:none;
+    max-width:300px;
+}
+
+QDateEdit{
+    background-color: white;
+    color:black;
+}
+
+QDoubleSpinBox{
+    background-color: white;
+    color:black;
+}
+
+QSpinBox{
+    background-color: white;
+    color:black;
+}
+
+QMenu::item{
+    background-color: white;
+    color: black;
+    padding:0.5em 1.8em;
+}
+
+QMenu::item#save{
+    border-bottom: 1px solid lightgrey;
+}
+
+QMenu::item:selected{
+    background-color: #737373;
+    color: #00FF00;
+}
+
+QMenuBar::item{
+    padding:0.4em;
+}
+
+QMenuBar::item:selected{
+    background-color: #737373;
+    color: #00FF00;
+}
+
+QDialog QMenu::item{
+    padding: 15px 105px;
+}
+
+#removeButtons{
+    min-height: 2em;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+#edit{
+    margin-left:10%;
+    margin-right:10%;
+}
+
